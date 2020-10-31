@@ -2,7 +2,7 @@ $(document).ready(function () {
     $("input").on('click keyup', function (e) {
 
         var inputId = this.id.split("_");
-        var propName = document.getElementById(this.id).value; // Название введенного свойства
+        var propName = document.getElementById(this.id).value;
         var propIdCode = 'IB_PROPERTY_' + inputId[2] + '_CODE';
 
         var ru = {
